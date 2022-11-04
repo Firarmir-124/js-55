@@ -1,0 +1,17 @@
+.App {
+  display: flex;
+  justify-content: space-between;
+  height: 100vh;
+}
+
+.block-ingredient {
+  border: 1px solid #000;
+  flex-grow: 1;
+}
+
+.block-burger {
+  position: relative;
+  border: 1px solid #000;
+  flex-grow: 1;
+  overflow: auto;
+}
