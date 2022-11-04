@@ -1,0 +1,47 @@
+.ingredient {
+    height: 100px;
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #1c1c21;
+    margin-bottom: 10px;
+    color: #fff;
+    padding: 0 20px;
+    cursor: pointer;
+}
+
+.ingredient:hover {
+    background: #2f2f36;
+}
+.ingredient img {
+    width: 100px;
+    height: auto;
+}
+
+.ingredient span {
+    background: #48af48;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.ingredient h3 {
+    text-transform: uppercase;
+}
+
+.section-ingredient {
+    display: flex;
+}
+
+.section-ingredient button {
+    margin-bottom: 10px;
+    background: #494964 url("/src/assets/remove.svg") no-repeat center;
+    border: none;
+    width: 50px;
+    transition: 0.2s;
+}
+
+.section-ingredient button:hover {
+    transform: scale(1.1);
+    box-shadow: 14px 0 0 #55f3a3;
+}
