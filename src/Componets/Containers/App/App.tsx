@@ -12,14 +12,15 @@ import Burger from "../../Burger/Burger";
 import Generation from "../../Burger/Generation";
 import Prise from "../../Prise/Prise";
 
-const INGREDIENTS = [
-  {name: 'Meat', price: 80, image: meatImage, id: 'm1'},
-  {name: 'bacon', price: 60, image: baconImage, id: 'b2'},
-  {name: 'cheese', price: 50, image: cheeseImage, id: 'c3'},
-  {name: 'salad', price: 10, image: saladImage, id: 's4'},
-]
 
 function App() {
+
+  const INGREDIENTS:Ingredient[] = [
+    {name: 'Meat', price: 80, image: meatImage, id: 'm1'},
+    {name: 'bacon', price: 60, image: baconImage, id: 'b2'},
+    {name: 'cheese', price: 50, image: cheeseImage, id: 'c3'},
+    {name: 'salad', price: 10, image: saladImage, id: 's4'},
+  ]
 
   const [ingredients, setIngredients] = useState([
     {name: 'Meat', counter: 0},
